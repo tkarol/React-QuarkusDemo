@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        'http://127.0.0.1:8080/user', { headers: { "Authorization": "Bearer " + localStorage.getItem("react-token") } }
+        'http://127.0.0.1:8180/user', { headers: { "Authorization": "Bearer " + localStorage.getItem("react-token") } }
       );
       setData(result.data);
     };
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Secure React App</h1>
+        <h1>React App - Protected by XtremeCloud SSO</h1>
         <div>
           <img src={logo} className="App-logo" alt="logo" />
         </div>
