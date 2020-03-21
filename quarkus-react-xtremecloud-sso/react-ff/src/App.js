@@ -20,13 +20,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>React App - Protected by XtremeCloud SSO</h1>
+        <h1>React App - Protected byXtremeCloud SSO</h1>
         <div>
           <img src={logo} className="App-logo" alt="logo" />
         </div>
         <div>
 
-        <h2>Response from Quarkus API: /user </h2>
+        <h2>Response from Air Force Material Command's XtremeCloud BPM REST API: /user </h2>
 
           <p>Name: {data.name}</p>
           <p>Email:{data.email}</p>
