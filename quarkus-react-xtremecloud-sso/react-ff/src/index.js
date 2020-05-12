@@ -7,7 +7,7 @@ import * as Keycloak from 'keycloak-js'
 
 //keycloak init options
 let initOptions = {
-    url: 'http://127.0.0.1:8080/auth', realm: 'react-demo', clientId: 'react-ff', onLoad: 'login-required', promiseType: 'native'
+    url: 'http://localhost:8888/auth', realm: 'quarkus', clientId: 'react-ff-tyler', onLoad: 'login-required'
 }
 
 const keycloak = Keycloak(initOptions);

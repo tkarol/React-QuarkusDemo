@@ -9,7 +9,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        'http://127.0.0.1:8180/user', { headers: { "Authorization": "Bearer " + localStorage.getItem("react-token") } }
+        'http://localhost:8080/user', { headers: { "Authorization": "Bearer " + localStorage.getItem("react-token") } }
       );
       setData(result.data);
     };
@@ -26,7 +26,7 @@ function App() {
         </div>
         <div>
 
-        <h2>Response from Air Force Material Command's XtremeCloud BPM REST API: /user </h2>
+        <h2>Response from Air Force Material Command's XtremeCloud Tyler BPM REST API: /user </h2>
 
           <p>Name: {data.name}</p>
           <p>Email:{data.email}</p>

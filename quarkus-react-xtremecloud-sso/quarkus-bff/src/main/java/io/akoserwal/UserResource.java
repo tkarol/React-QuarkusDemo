@@ -21,8 +21,8 @@ public class UserResource {
 
     public UserResource() {
         user = new User();
-        user.setEmail("samantha.smith@eupraxialabs.com");
-        user.setName("ssmith");
+        user.setEmail("tyler.karol@eupraxialabs.com");
+        user.setName("Tyler Karol");
     }
 
     @GET

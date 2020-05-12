@@ -7,7 +7,7 @@ import * as Keycloak from 'keycloak-js'
 
 //keycloak init options
 let initOptions = {
-    url: 'https://127.0.0.1:8443/auth', realm: 'keycloak-demo', clientId: 'react-test-app', onLoad: 'login-required'
+    url: 'http://localhost:8888/auth', realm: 'react-test-app', clientId: 'app', onLoad: 'login-required'
 }
 
 
