@@ -9,10 +9,14 @@ import javax.ws.rs.core.Response;
 
 import io.akoserwal.model.User;
 import io.quarkus.security.Authenticated;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.Authorization;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 
 @Path("/user")
 @Authenticated
+@EnableSwagger2
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class UserResource {

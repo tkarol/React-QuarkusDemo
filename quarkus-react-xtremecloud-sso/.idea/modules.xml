@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/quarkus-bff/quarkus-bff.iml" filepath="$PROJECT_DIR$/quarkus-bff/quarkus-bff.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/quarkus-react-xtremecloud-sso.iml" filepath="$PROJECT_DIR$/.idea/quarkus-react-xtremecloud-sso.iml" />
     </modules>
   </component>
